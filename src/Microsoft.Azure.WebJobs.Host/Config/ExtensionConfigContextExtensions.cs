@@ -9,6 +9,7 @@ namespace Microsoft.Azure.WebJobs.Host.Config
     /// <summary>
     /// Helper Extension methods for extension configuration. 
     /// </summary>
+    [Obsolete]
     public static class ExtensionConfigContextExtensions
     {
         /// <summary>

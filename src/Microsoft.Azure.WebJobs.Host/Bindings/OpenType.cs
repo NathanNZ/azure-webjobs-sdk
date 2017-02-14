@@ -13,6 +13,7 @@ namespace Microsoft.Azure.WebJobs.Host.Bindings
     /// Also applies to generics such as: 
     ///  GenericClass&lt;OpenType&gt; 
     /// </summary>
+    [Obsolete]
     public abstract class OpenType
     {
         /// <summary>
